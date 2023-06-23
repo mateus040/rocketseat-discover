@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/assets/bg-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; /* Preenchendo todo o espaço */
+}
+
+body *{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+}
+
+#container{
+    width: 360px;
+    margin: 56px auto 0px auto;
+}
+
+#profile{
+    text-align: center; /* Elemento pai definindo propriedades de seus filhos */
+}
+
+#profile img{
+    width: 112px;
+}
+
+#profile p{
+    font-weight: 500; /* Negrito */
+    line-height: 24px; /* Altura da linha */
+}
