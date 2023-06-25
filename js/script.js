@@ -6,11 +6,11 @@ function toggleMode(){
 
     if (html.classList.contains('light')) {
         // Se estiver com a classe 'light', ele irá adicionar a imagem para versão light
-        image.setAttribute('src', '/assets/avatar-light.png');
+        image.setAttribute('src', '/assets/foto_light.png');
     }
     else {
         // Se estiver sem a classe 'light', ele irá adicionar a imagem para a versão black
-        image.setAttribute('src', '/assets/foto.png')
+        image.setAttribute('src', '/assets/foto_black.png')
     }
 
 
